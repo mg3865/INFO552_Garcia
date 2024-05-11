@@ -17,10 +17,19 @@ index
 
         button{
             margin: 32px 0;
-        }
+        }s
     }
     img{
         width:100%
+    }
+    #index-hero-image{
+        border: 1px solid red;
+        height: 500px;
+        background-image: url('..//Users/miagarcia/Desktop/Info-552-Sp24-Class-Starting-Files/img/img/home/hero.jpg');
+        background-size: cover;
+        //x can equal right center left 
+        //y can equal top center bottom
+        background-position: center;
     }
 }
 
@@ -43,7 +52,11 @@ index
     }
 
     #planning-hero{
-        width: 100%;
+        background-image: url("..//Users/miagarcia/Desktop/Info-552-Sp24-Class-Starting-Files/img/img/home/planning/planning.jpg");
+        height: 360px;
+        background-size: cover;
+        background-position: center;
+        border-radius: 10px;
     }
 
     #planning-callout{

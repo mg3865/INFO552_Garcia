@@ -3,7 +3,10 @@
 ============= */
 
 footer{
-    background-color: var(--black);
+
+    background-image: url("..//Users/miagarcia/Desktop/INFO552_Garcia/img/img/footer/footer.jpg");
+    background-size: cover;
+    background-position: center bottom;
     color: var(--white);
     text-align: center;
     padding-bottom: 32px;
@@ -23,6 +26,15 @@ footer{
             background-color: var(--red);
             padding: 16px;
 
+        }
+    }
+
+    ul{
+        li{
+            a{
+                color:var(--white);
+                font-size: rem-calc(30);
+            }
         }
     }
 }
