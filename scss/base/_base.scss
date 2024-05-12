@@ -1,0 +1,43 @@
+/* =============
+    Base
+============= */
+
+body{
+    background-color: red;
+}
+
+ul{
+    padding : 0;
+    margin: 0;
+    li{
+        list-style: none;
+    }
+}
+
+.hide-img{
+    display:none
+}
+
+.xxl-grid{
+    @include xxl{
+        display: grid;
+        grid-template-columns: auto 1440px auto;
+        grid-template-areas: ". xxl-content .";
+
+        .xxl-grid-item{
+            grid-area: xxl-content;
+        }
+    }
+}
+
+.xl-grid{
+    @include xl{
+        display: grid;
+        grid-template-columns: auto 1200px auto;
+        grid-template-areas: ". xl-content";
+
+        .xl-grid-item{
+            grid-area: xl-content;
+        }
+    }
+}

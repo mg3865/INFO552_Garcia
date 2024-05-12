@@ -1,0 +1,82 @@
+/* =============
+    Footer
+============= */
+
+footer{
+
+    background-image: url("..//Users/miagarcia/Desktop/INFO552_Garcia/img/img/footer/footer.jpg");
+    background-size: cover;
+    background-position: center bottom;
+    color: var(--white);
+    text-align: center;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+
+>div{  
+    
+    padding-bottom: 32px;
+    
+    h2{
+        padding-top: 200px;
+        font-size: rem-calc(24);
+        font-weight: 600;
+        margin-bottom: 8px;
+
+        @include md{
+            margin-bottom:  16px;
+        }
+
+    }
+    form{
+        width: 85vw;
+
+        @include md{
+            width: 50vw;
+        }
+
+        >div{
+            display: flex;
+        input{
+            border-radius: 0;
+            border: none;
+            width: 100%;
+            padding-left: 2%;
+            box-sizing: border-box;
+            background-color: #ffffff85;
+        }
+
+        ::placeholder{
+            color: var(--darkBlue);
+            opacity: 1;
+        }
+        ::-ms-input-placeholder{
+            color: var(--darkBlue);
+        }
+
+
+        button{
+            background-color: var(--red);
+            padding: 16px;
+            margin-left: auto;
+            
+
+        }
+        }
+    }
+
+    ul{
+        padding: 32px 6vw 16px;
+        display: flex;
+        justify-content: space-between;
+        li{
+            a{
+                color:var(--white);
+                font-size: rem-calc(30);
+            }
+        }
+    }
+}
+}
